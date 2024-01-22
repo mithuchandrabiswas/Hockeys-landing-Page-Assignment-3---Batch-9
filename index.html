@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Hockeys Landing Page Design By TailwindCss & DaisyUI </title>
+
+    <!-- ------------Tailwind & DaisyUI CDN link-----------  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- --------------Custom CSS link--------- -->
+    <link rel="stylesheet" href="./styles/style.css">
+
 </head>
-
-<!-- ------------Tailwind & DaisyUI CDN link-----------  -->
-<link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
-
-<!-- ------------Custom CSS link-----------  -->
-<link rel="stylesheet" href="./styles/style.css">
 
 <body>
     <header class="container mx-auto bg-slate-500">
@@ -41,12 +41,14 @@
                         <li><a> Contact Us </a></li>
                     </ul>
                 </div>
-                <h1 class="text-3xl md:text-4xl text-[#131318] font-extrabold"> Hockey<span
+                <a href="#">
+                    <h1 class="text-3xl md:text-4xl text-[#131318] font-extrabold"> Hockey<span
                         class="text-[#FF4240]">’</span>s</h1>
+                </a>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-1">
-                    <li><a> Home </a></li>
+                    <li><a class="text-[#FF4240]"> Home </a></li>
                     <li>
                         <details>
                             <summary> About Us</summary>
@@ -62,15 +64,54 @@
                 </ul>
             </div>
             <div class="navbar-end">
-                <img class="w-6 h-6" src="./Images/Frame.png" alt="">
+                <img class="w-6 h-6 cursor-pointer hidden md:block" src="./Images/Frame.png" alt="">
                 <a class="btn bg-[#FF4240] ml-2 text-white hover:bg-[#ff4340dc]"> Get Ticket </a>
             </div>
         </div>
     </header>
 
-    <main> </main>
+    <main>
+        <!-- ------------ Carousel with indicator buttons------------ -->
+        <section> 
+            <div class="container mx-auto">
+                <!-- -------Carousel----- -->
+                <div class="carousel w-full">
+                    <div id="slide1" class="carousel-item relative w-full">
+                      <img src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg" class="w-full" />
+                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a> 
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                      </div>
+                    </div> 
+                    <div id="slide2" class="carousel-item relative w-full">
+                      <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a> 
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                      </div>
+                    </div> 
+                    <div id="slide3" class="carousel-item relative w-full">
+                      <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a> 
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                      </div>
+                    </div> 
+                    <div id="slide4" class="carousel-item relative w-full">
+                      <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a> 
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+    </main>
 
-    <footer> </footer>
+    <footer>
+        
+    </footer>
 </body>
 
 </html>
