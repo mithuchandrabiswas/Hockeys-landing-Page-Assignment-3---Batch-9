@@ -58,7 +58,7 @@
                     <li>
                         <details>
                             <summary> About Us</summary>
-                            <ul class="p-2 w-44">
+                            <ul class="p-2 w-44 z-10">
                                 <li><a> Mission and Vision </a></li>
                                 <li><a> Testimonials </a></li>
                             </ul>
@@ -83,38 +83,22 @@
                 <!-- -------Carousel----- -->
                 <div class="carousel w-full">
                     <div id="slide1" class="carousel-item relative w-full">
-                        <img src="./Images/slider image 1.png" class="w-full h-[70vh]" />
+                        <img src="./Images/slider image 1.png" class="w-full md:h-[80vh]" />
                         <div class="absolute flex  transform translate-y-1/2 left-5 right-5 top-2/3">
                             <a href="#slide4" class="btn btn-neutral btn-circle mr-2">❮</a>
                             <a href="#slide2" class="btn btn-neutral btn-circle">❯</a>
                         </div>
                     </div>
                     <div id="slide2" class="carousel-item relative w-full">
-                        <img src="./Images/banner -2.jpg" class="w-full h-[70vh]" />
+                        <img src="./Images/banner -2.jpg" class="w-full md:h-[80vh] rounded-xl" />
 
                         <div class="absolute flex transform translate-y-1/2 left-5 right-5 top-2/3">
                             <a href="#slide1" class="btn btn-neutral btn-circle mr-2">❮</a>
                             <a href="#slide3" class="btn btn-neutral btn-circle">❯</a>
                         </div>
                     </div>
-                    <div id="slide3" class="carousel-item relative w-full">
-                        <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg"
-                            class="w-full" />
-                        <div class="absolute flex transform translate-y-1/2 left-5 right-5 top-2/3">
-                            <a href="#slide2" class="btn btn-neutral btn-circle mr-2">❮</a>
-                            <a href="#slide4" class="btn btn-neutral btn-circle">❯</a>
-                        </div>
-                    </div>
-                    <div id="slide4" class="carousel-item relative w-full">
-                        <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg"
-                            class="w-full" />
-                        <div class="absolute flex transform translate-y-1/2 left-5 right-5 top-2/3">
-                            <a href="#slide3" class="btn btn-neutral btn-circle mr-2">❮</a>
-                            <a href="#slide1" class="btn btn-neutral btn-circle">❯</a>
-                        </div>
-                    </div>
                 </div>
-                <div class=" bg-[#131318] md:absolute right-4 top-10 p-5 md:p-3 lg:p-5 rounded-2xl md:max-w-sm lg:max-w-lg">
+                <div class=" bg-[#131318] md:absolute right-4 bottom-10 p-5 md:p-3 lg:p-6 rounded-2xl md:max-w-sm lg:max-w-lg">
                     <h1 class="text-white text-lg md:text-xl lg:text-2xl font-extrabold"> Meet all the heroes from the field </h1>
                     <p class="text-white text-sm md:text-base font-medium mt-4"> Dit amet consectetur. Condimentum
                         dignissim adipiscing
@@ -126,7 +110,7 @@
         <!-- -------------------Facility Progress Bar Section----------- -->
         <section>
             <div class="container mx-auto my-10">
-                <div class="text-center mb-8">
+                <div class="text-center mb-8 border-y border-[rgba(19, 19, 24, 0.40)] border-dashed py-5">
                     <h1 class="text-[#131318] manrope text-2xl md:text-4xl font-extrabold"> Professional Hockeys Club
                     </h1>
                     <p class="text-[#13131899] manrope text-base md:max-w-xl mx-auto mt-4 leading-6 p-3"> Dit amet
@@ -174,7 +158,7 @@
         <!-- -------------------Program Section----------- -->
         <section>
             <div class="container mx-auto my-10">
-                <div class="text-center mb-8">
+                <div class="text-center mb-8 border-y border-[rgba(19, 19, 24, 0.40)] border-dashed py-5">
                     <h1 class="text-[#131318] manrope text-2xl md:text-4xl font-extrabold"> Program Sections
                     </h1>
                     <p class="text-[#13131899] manrope text-base md:max-w-xl mx-auto mt-4 leading-6 p-3"> Program sections can refer to different components or divisions within software, educational programs, television or radio shows, event agendas, fitness programs, or legislative proposals, depending on the context in which the term is used. </p>
@@ -183,7 +167,7 @@
                 <div class="grid grid-cols-12 gap-5">
                     <!-- ---------Program 1---------- -->
                     <div
-                        class="col-span-12 md:col-span-6 bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./Images/2.png')] bg-center bg-cover h-[60vh] flex flex-col justify-end items-start p-6 space-y-2">
+                        class="col-span-12 md:col-span-6 bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./Images/2.png')] bg-center bg-cover h-full md:h-[60vh] object-cover flex flex-col justify-end items-start p-6 space-y-2 rounded-xl">
                         <h1 class="text-white manrope text-xl md:text-2xl lg:text-3xl font-extrabold"> Junior Program
                         </h1>
                         <p class="text-white manrope text-sm md:text-base mt-4"> The term "Junior Program" can refer to various initiatives or activities designed specifically for young individuals, typically children or teenagers.  </p>
@@ -192,7 +176,7 @@
                     </div>
                     <!-- ---------Program 2---------- -->
                     <div
-                        class="col-span-12 md:col-span-6 bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./Images/3.png')] bg-center bg-cover h-[60vh] flex flex-col justify-end items-start p-6 space-y-2">
+                        class="col-span-12 md:col-span-6 bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./Images/3.png')] bg-center bg-cover h-[60vh] flex flex-col justify-end items-start p-6 space-y-2 rounded-xl">
                         <h1 class="text-white manrope text-xl md:text-2xl lg:text-3xl font-extrabold"> Teenager Program
                         </h1>
                         <p class="text-white manrope text-sm md:text-base mt-4"> A "Teenager Program" refers to various initiatives, activities, or interventions specifically designed for individuals in their teenage years. </p>
@@ -201,7 +185,7 @@
                     </div>
                     <!-- ---------Program 3---------- -->
                     <div
-                        class="col-span-12 bg-[linear-gradient(180deg,rgba(0,0,0,0.7),rgba(0,0,0,0.1)),url('./Images/4.png')] bg-center bg-cover h-[60vh] flex flex-col justify-end items-start p-6 space-y-2">
+                        class="col-span-12 bg-[linear-gradient(180deg,rgba(0,0,0,0.7),rgba(0,0,0,0.1)),url('./Images/4.png')] bg-center bg-cover h-[60vh] flex flex-col justify-end items-start p-6 space-y-2 rounded-xl">
                         <h1 class="text-white manrope text-xl md:text-2xl lg:text-3xl font-extrabold"> Professional Program
                         </h1>
                         <p class="text-white manrope text-sm md:text-base mt-4 max-w-xl"> A "Professional Program" typically refers to a structured educational or training initiative designed to prepare individuals for specific careers or enhance their skills and knowledge in a particular professional field.  </p>
@@ -215,7 +199,7 @@
         <!-- -------------------Products Section----------- -->
         <section>
             <div class="container mx-auto my-10">
-                <div class="text-center mb-8">
+                <div class="text-center mb-8 border-y border-[rgba(19, 19, 24, 0.40)] border-dashed py-5">
                     <h1 class="text-[#131318] manrope text-2xl md:text-4xl font-extrabold"> Our New Products
                     </h1>
                     <p class="text-[#13131899] manrope text-base md:max-w-xl mx-auto mt-4 leading-6 p-3"> To learn about our company's latest products, I recommend checking our company's official website, press releases, or contacting our company's customer service or marketing department. They should be able to provide you with the most up-to-date and accurate information about any new products or services. </p>
@@ -794,7 +778,7 @@
         <!-- -------------------FAQ Section----------- -->
         <section>
             <div class="container mx-auto my-10">
-                <div class="text-center mb-8">
+                <div class="text-center mb-8 border-y border-[rgba(19, 19, 24, 0.40)] border-dashed py-5">
                     <h1 class="text-[#131318] manrope text-2xl md:text-4xl font-extrabold"> Clients Question
                     </h1>
                     <p class="text-[#13131899] manrope text-base md:max-w-xl mx-auto mt-4 leading-6 p-3"> Dit amet
@@ -811,66 +795,60 @@
                         <div class="collapse collapse-plus">
                             <input type="radio" name="my-accordion-3" checked="checked" />
                             <div class="collapse-title text-xl font-medium">
-                                <h1 class="text-[#131318] manrope text-lg md:text-xl font-bold"> Our Equipment </h1>
+                                <h1 class="text-[#131318] manrope text-lg md:text-xl font-bold"> What equipment does my child need for the academy? </h1>
                             </div>
                             <div class="collapse-content">
-                                <p class="text-base text-[rgba(19, 19, 24, 0.60)] ">Dolor sit amet consectetur. Ut urna
-                                    diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                                <p class="text-base text-[rgba(19, 19, 24, 0.60)] ">  Players generally need standard hockey equipment, including skates, a stick, helmet, gloves, shoulder pads, elbow pads, shin guards, and a protective cup. Goalies require additional specialized equipment.</p>
                             </div>
                         </div>
                         <hr style="width: 95%; margin: auto;">
                         <div class="collapse collapse-plus">
                             <input type="radio" name="my-accordion-3" checked="checked" />
                             <div class="collapse-title text-xl font-medium">
-                                <h1 class="text-[#131318] manrope text-lg md:text-xl font-bold"> Hockey Training </h1>
+                                <h1 class="text-[#131318] manrope text-lg md:text-xl font-bold"> How do I enroll my child in the hockey academy? </h1>
                             </div>
                             <div class="collapse-content">
-                                <p class="text-base text-[rgba(19, 19, 24, 0.60)] ">Dolor sit amet consectetur. Ut urna
-                                    diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                                <p class="text-base text-[rgba(19, 19, 24, 0.60)] ">Enrolling typically involves contacting the academy, completing registration forms, and possibly attending tryouts or assessments.</p>
                             </div>
                         </div>
                         <hr style="width: 95%; margin: auto;">
                         <div class="collapse collapse-plus">
                             <input type="radio" name="my-accordion-3" checked="checked" />
                             <div class="collapse-title text-xl font-medium">
-                                <h1 class="text-[#131318] manrope text-lg md:text-xl font-bold"> Private Lessons </h1>
+                                <h1 class="text-[#131318] manrope text-lg md:text-xl font-bold"> Are there financial assistance or scholarship options available? </h1>
                             </div>
                             <div class="collapse-content">
-                                <p class="text-base text-[rgba(19, 19, 24, 0.60)] ">Dolor sit amet consectetur. Ut urna
-                                    diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                                <p class="text-base text-[rgba(19, 19, 24, 0.60)] ">Some academies may offer financial aid, scholarships, or payment plans. It's advisable to inquire about available options during the enrollment process.</p>
                             </div>
                         </div>
                         <hr style="width: 95%; margin: auto;">
                         <div class="collapse collapse-plus">
                             <input type="radio" name="my-accordion-3" checked="checked" />
                             <div class="collapse-title text-xl font-medium">
-                                <h1 class="text-[#131318] manrope text-lg md:text-xl font-bold"> Ski Touring </h1>
+                                <h1 class="text-[#131318] manrope text-lg md:text-xl font-bold"> Are there opportunities for players to participate in tournaments or leagues? </h1>
                             </div>
                             <div class="collapse-content">
-                                <p class="text-base text-[rgba(19, 19, 24, 0.60)] ">Dolor sit amet consectetur. Ut urna
-                                    diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                                <p class="text-base text-[rgba(19, 19, 24, 0.60)] ">Many hockey academies arrange for participation in leagues, tournaments, and exhibition games, providing players with competitive experiences.</p>
                             </div>
                         </div>
                         <hr style="width: 95%; margin: auto;">
                         <div class="collapse collapse-plus">
                             <input type="radio" name="my-accordion-3" checked="checked" />
                             <div class="collapse-title text-xl font-medium">
-                                <h1 class="text-[#131318] manrope text-lg md:text-xl font-bold"> Booking </h1>
+                                <h1 class="text-[#131318] manrope text-lg md:text-xl font-bold"> How is player development and progress assessed? </h1>
                             </div>
                             <div class="collapse-content">
-                                <p class="text-base text-[rgba(19, 19, 24, 0.60)] ">Dolor sit amet consectetur. Ut urna
-                                    diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                                <p class="text-base text-[rgba(19, 19, 24, 0.60)] ">Player development is often assessed through regular evaluations, feedback sessions, video analysis, and performance metrics.</p>
                             </div>
                         </div>
                         <hr style="width: 95%; margin: auto;">
                         <div class="collapse collapse-plus">
                             <input type="radio" name="my-accordion-3" checked="checked" />
                             <div class="collapse-title text-xl font-medium">
-                                <h1 class="text-[#131318] manrope text-lg md:text-xl font-bold"> Pricings </h1>
+                                <h1 class="text-[#131318] manrope text-lg md:text-xl font-bold"> Are there any additional fees beyond the registration cost? </h1>
                             </div>
                             <div class="collapse-content">
-                                <p class="text-base text-[rgba(19, 19, 24, 0.60)] ">Dolor sit amet consectetur. Ut urna
-                                    diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                                <p class="text-base text-[rgba(19, 19, 24, 0.60)] ">It's essential to inquire about any additional fees, such as travel costs for tournaments, uniform expenses, or optional extra training programs.</p>
                             </div>
                         </div>
                         <hr style="width: 95%; margin: auto;">
@@ -883,70 +861,68 @@
 
         <!-- -------------------Get In Touch Section----------- -->
         <section>
-            <div class="container mx-auto my-10">
-                <div class="text-center mb-8">
+            <div class="container mx-auto my-10 px-5 md:px-0">
+                <div class="text-center mb-8 border-y border-[rgba(19, 19, 24, 0.40)] border-dashed py-5">
                     <h1 class="text-[#131318] manrope text-2xl md:text-4xl font-extrabold"> Get In Touch
                     </h1>
-                    <p class="text-[#13131899] manrope text-base md:max-w-xl mx-auto mt-4 leading-6 p-3"> Dit amet
-                        consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit
-                        nullam proin. </p>
+                    <p class="text-[#13131899] manrope text-base md:max-w-xl mx-auto mt-4 leading-6 p-3"> If you are interested in joining our academy. Contact us directly by phone, email or at the address below. </p>
                 </div>
                 <div class="grid grid-cols-12 gap-4">
 
-                    <div class="col-span-12 md:col-span-5">
-                        <div class="bg-[#BCED6D1A] shadow-xl p-5 space-y-4 rounded-2xl mb-4">
+                    <div class="col-span-12 md:col-span-5 border border-[rgba(19, 19, 24, 0.03)] p-6 rounded-2xl">
+                        <div class="bg-[#BCED6D1A] shadow-md p-5 space-y-4 rounded-2xl mb-4">
                             <img class="h-12 w-12" src="./Images/Group 1171275317.png" alt="">
                             <div>
-                                <h2 class="text-base text-[rgba(19, 19, 24, 0.40)] leading-7">Phone Number:</h2>
-                                <p class="text-lg text-[#131318] font-extrabold leading-8"> (+62) 123-321-543 </p>
+                                <h2 class="text-base text-[rgba(19, 19, 24, 0.40)] leading-7"> Phone Number :</h2>
+                                <p class="sm:text-sm md:text-lg text-[#131318] font-extrabold leading-8"> (+62) 123-321-543 </p>
                             </div>
                         </div>
-                        <div class="bg-[rgba(253,221,95,0.10)] shadow-xl p-5 space-y-4 rounded-2xl mb-4">
+                        <div class="bg-[rgba(253,221,95,0.10)] shadow-md p-5 space-y-4 rounded-2xl mb-4">
                             <img class="h-12 w-12" src="./Images/Group 1171275318.png" alt="">
                             <div>
-                                <h2 class="text-base text-[rgba(19, 19, 24, 0.40)] leading-7">Phone Number:</h2>
-                                <p class="text-lg text-[#131318] font-extrabold leading-8"> (+62) 123-321-543 </p>
+                                <h2 class="text-base text-[rgba(19, 19, 24, 0.40)] leading-7"> Email : </h2>
+                                <p class="sm:text-sm md:text-lg text-[#131318] font-extrabold leading-8"> hockeys@support.com </p>
                             </div>
                         </div>
-                        <div class="bg-[#BCED6D1A] shadow-xl p-5 space-y-4 rounded-2xl mb-4">
+                        <div class="bg-[#BCED6D1A] shadow-md p-5 space-y-4 rounded-2xl mb-4">
                             <img class="h-12 w-12" src="./Images/Group 1171275321.png" alt="">
                             <div>
-                                <h2 class="text-base text-[rgba(19, 19, 24, 0.40)] leading-7">Phone Number:</h2>
-                                <p class="text-lg text-[#131318] font-extrabold leading-8"> (+62) 123-321-543 </p>
+                                <h2 class="text-base text-[rgba(19, 19, 24, 0.40)] leading-7"> Location : </h2>
+                                <p class="sm:text-sm md:text-lg text-[#131318] font-extrabold leading-8"> 152/1 Mohakhali Wireless Gate </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-span-12 md:col-span-7">
                         <div class="grid grid-cols-12 gap-2">
-                            <div class="col-span-12 md:col-span-6 form-control mb-4">
-                                <label class="text-lg text-[#131318] font-extrabold" for=""> Your Name </label>
+                            <div class="col-span-12 md:col-span-6 form-control mb-10">
+                                <label class="text-lg pl-2 mb-3 text-[#131318] font-extrabold" for=""> Your Name </label>
                                 <input type="text" placeholder="Enter Your Full Name"
-                                    class="input shadow-lg border-none focus:outline-[#ff000013] w-full text-base text-[rgba(19, 19, 24, 0.30)]" />
+                                    class="input shadow-md border-none focus:outline-[#ff000013] w-full text-base text-[rgba(19, 19, 24, 0.30)]" />
                             </div>
-                            <div class="col-span-12 md:col-span-6 form-control mb-4">
-                                <label class="text-lg text-[#131318] font-extrabold" for=""> Your Email </label>
+                            <div class="col-span-12 md:col-span-6 form-control mb-10">
+                                <label class="text-lg pl-2 mb-3 text-[#131318] font-extrabold" for=""> Your Email </label>
                                 <input type="text" placeholder="Enter Your Name"
-                                    class="input shadow-lg border-none focus:outline-[#ff000013] w-full text-base text-[rgba(19, 19, 24, 0.30)]" />
+                                    class="input shadow-md border-none focus:outline-[#ff000013] w-full text-base text-[rgba(19, 19, 24, 0.30)]" />
                             </div>
-                            <div class="col-span-12 md:col-span-6 form-control mb-4">
-                                <label class="text-lg text-[#131318] font-extrabold" for=""> Subject </label>
+                            <div class="col-span-12 md:col-span-6 form-control mb-10">
+                                <label class="text-lg pl-2 mb-3 text-[#131318] font-extrabold" for=""> Subject </label>
                                 <input type="text" placeholder="Enter Your Subject"
-                                    class="input shadow-lg border-none focus:outline-[#ff000013] w-full text-base text-[rgba(19, 19, 24, 0.30)]" />
+                                    class="input shadow-md border-none focus:outline-[#ff000013] w-full text-base text-[rgba(19, 19, 24, 0.30)]" />
                             </div>
-                            <div class="col-span-12 md:col-span-6 form-control mb-4">
-                                <label class="text-lg text-[#131318] font-extrabold" for=""> Phone Number </label>
+                            <div class="col-span-12 md:col-span-6 form-control mb-10">
+                                <label class="text-lg pl-2 mb-3 text-[#131318] font-extrabold" for=""> Phone Number </label>
                                 <input type="number" placeholder="Enter Your Phone Number"
-                                    class="input shadow-lg border-none focus:outline-[#ff000013] w-full text-base text-[rgba(19, 19, 24, 0.30)]" />
+                                    class="input shadow-md border-none focus:outline-[#ff000013] w-full text-base text-[rgba(19, 19, 24, 0.30)]" />
                             </div>
                             <div class="col-span-12 form-control mb-4">
-                                <label class="text-lg text-[#131318] font-extrabold" for=""> Message </label>
-                                <textarea class="textarea shadow-lg border-none focus:outline-[#ff000013] text-base text-[rgba(19, 19, 24, 0.30)]" rows="8" placeholder="Write Your Message"></textarea>
+                                <label class="text-lg pl-2 mb-3 text-[#131318] font-extrabold" for=""> Message </label>
+                                <textarea class="textarea shadow-md border-none focus:outline-[#ff000013] text-base text-[rgba(19, 19, 24, 0.30)]" rows="8" placeholder="Write Your Message"></textarea>
                             </div>
                             <button class="col-span-12 btn btn-error"> Send Message </button>
                         </div>
                     </div>
 
-                    <div class="col-span-12 text-center mx-auto space-y-4 my-6">
+                    <div class="container col-span-12 text-center mx-auto space-y-4 my-6 bg-[rgba(19,19,24,0.2)] rounded-lg py-10">
                         <h1 class="text-[#131318] manrope text-2xl font-extrabold"> Social Media
                         </h1>
                         <div class="flex justify-center items-center">
